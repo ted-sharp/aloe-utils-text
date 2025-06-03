@@ -9,10 +9,10 @@
 		<AssemblyName>$(MSBuildProjectName)</AssemblyName>
 		<Platforms>AnyCPU</Platforms>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>ted-sharp</Authors>
 		<Company></Company>
-		<Description>Stackalloc と ArrayPool を組み合わせた高速かつ低GCの StringBuilder 構造体を提供するライブラリ</Description>
+		<Description>A library that provides a high-performance, low-GC StringBuilder struct using Stackalloc and ArrayPool</Description>
 		<PackageId>Aloe.Utils.Text</PackageId>
 		<PackageTags>stringbuilder;performance;gc;memory</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -53,7 +53,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="LinkDotNet.StringBuilder" Version="2.4.1" />
 		<PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="9.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
